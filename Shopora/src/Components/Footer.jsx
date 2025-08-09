@@ -8,7 +8,14 @@ const Footer = () => {
         <div className="flex gap-4 mt-4 md:mt-0">
           <a href="#" className="hover:underline">Privacy Policy</a>
           <a href="#" className="hover:underline">Terms of Service</a>
-          <a href="#" className="hover:underline">Contact</a>
+          <a
+            href="https://port-folio-react-57ha.vercel.app/#about"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMenuOpen(false)}
+          >
+            Contact Me
+          </a>
         </div>
       </div>
     </footer>

@@ -18,7 +18,15 @@ const NavHeader = () => {
           <Link to="/profile">Profile</Link>
           <Link to="/order">Ordered</Link>
           <Link to="/electronics">Electronics</Link>
-          <Link to="/contact">Contact</Link>
+          <a
+  href="https://port-folio-react-57ha.vercel.app/#about"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  About Me
+</a>
+
           <Link to="/login">Login</Link>
           <Link to="/register">Register</Link>
           <Link to="/cart"><ShoppingCart /></Link>
@@ -36,9 +44,18 @@ const NavHeader = () => {
           <Link to="/profile" onClick={() => setMenuOpen(false)}>Profile</Link>
           <Link to="/order" onClick={() => setMenuOpen(false)}>Ordered</Link>
           <Link to="/electronics" onClick={() => setMenuOpen(false)}>Electronics</Link>
-          <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <Link to="/login" onClick={() => setMenuOpen(false)}>Login</Link>
-          <Link to="/register" onClick={() => setMenuOpen(false)}>Register</Link>
+           <Link to="/register" onClick={() => setMenuOpen(false)}>Register</Link>
+          <a
+  href="https://port-folio-react-57ha.vercel.app/#about"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  About Me
+</a>
+
+         
           <Link to="/cart" onClick={() => setMenuOpen(false)}><ShoppingCart /></Link>
         </div>
       )}
